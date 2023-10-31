@@ -1,0 +1,976 @@
+{
+    "props": {
+        "initialProps": {
+            "pageProps": {
+                "pathname": "/"
+            },
+            "serverNonce": "11d51be6-2d77-4d79-8e38-bea4f34a3e70"
+        },
+        "initialState": {
+            "Page": {
+                "pageIsHome": false,
+                "currentLanding": null,
+                "apiData": {
+                    "type": "PageContent",
+                    "id": "502",
+                    "title": "Online tours - Enjoy the Louvre at home!",
+                    "currentLanguage": "en",
+                    "components": [{
+                        "type": "Ariane",
+                        "links": [{
+                            "title": "Back to Home",
+                            "url": "/en"
+                        }, {
+                            "title": "Online tours",
+                            "url": "/en/online-tours"
+                        }],
+                        "a11y": {
+                            "nav": "You are here",
+                            "seeAll": "See all breadcrumbs"
+                        }
+                    }, {
+                        "type": "LandingHeader",
+                        "title": "Virtual tours",
+                        "subtitle": "Enjoy the Louvre at home!",
+                        "image": {
+                            "preview": "bf9e73",
+                            "fallback": "/sites/default/files/2021-03/petite-galerie-5-figure-d-artiste-2.jpg",
+                            "path": "/public/2021-03/petite-galerie-5-figure-d-artiste-2.jpg",
+                            "alt": "",
+                            "width": 4000,
+                            "height": 2667
+                        },
+                        "a11y": {
+                            "title": "Online tours"
+                        }
+                    }, {
+                        "type": "AncresNavigation",
+                        "a11y": {
+                            "next": "previous sections",
+                            "prev": "following sections",
+                            "label": "Summary"
+                        }
+                    }, {
+                        "type": "DefaultLayoutContainer",
+                        "id": "virtual-tours",
+                        "title": "Virtual tours",
+                        "anchorTitle": "Virtual tours",
+                        "color": "rose",
+                        "backgroundColor": "white",
+                        "components": [{
+                            "type": "SplitScreenLayout",
+                            "title": "",
+                            "description": {
+                                "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eVisit the museum rooms and galeries, admire the palace architecture and enjoy the views!\u003c/p\u003e\n",
+                                "links": {},
+                                "titles": {}
+                            },
+                            "link": {
+                                "url": "",
+                                "title": "",
+                                "external": false,
+                                "a11y": ""
+                            },
+                            "components": [{
+                                "type": "ServicesCards",
+                                "a11y": {
+                                    "dots": "{{current}} on {{count}}",
+                                    "prev": "Previous services",
+                                    "next": "Next services"
+                                },
+                                "items": [{
+                                    "title": "From afar. Travelling Materials and Objects",
+                                    "description": {
+                                        "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003e\u003cspan\u003e\u003cspan\u003eThrough materials and objects, this exhibition describes exchanges between distant worlds \u0026ndash; exchanges often far more ancient than the explorations of the 16th century.\u003c/span\u003e\u003c/span\u003e\u0026nbsp;\u003cspan lang=\"EN-AU\"\u003e\u003cspan\u003e\u003cspan\u003eFrom deepest antiquity, carnelian, lapis lazuli, ebony and ivory circulated along trade routes...\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/p\u003e\n",
+                                        "links": {},
+                                        "titles": {}
+                                    },
+                                    "image": {
+                                        "preview": "",
+                                        "fallback": "/sites/default/files/2021-11/VV-PG6.JPG",
+                                        "path": "/public/2021-11/VV-PG6.JPG",
+                                        "alt": "",
+                                        "width": 1478,
+                                        "height": 831
+                                    },
+                                    "link": {
+                                        "url": "https://petitegalerie.louvre.fr/visite-virtuelle/saison6/",
+                                        "title": "Launch virtual tour",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }, {
+                                    "title": "The Advent of the Artist",
+                                    "description": {
+                                        "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eFor its 5th edition, the Petite Galerie takes a closer look at the transition from the typically anonymous craftsman of the classical period to the artist of the Renaissance, featuring works by Delacroix, Rembrandt, Tintoret and more.\u003c/p\u003e\n",
+                                        "links": {},
+                                        "titles": {}
+                                    },
+                                    "image": {
+                                        "preview": "99622c",
+                                        "fallback": "/sites/default/files/2021-03/MO191304.jpg",
+                                        "path": "/public/2021-03/MO191304.jpg",
+                                        "alt": "",
+                                        "width": 4000,
+                                        "height": 2667
+                                    },
+                                    "link": {
+                                        "url": "https://petitegalerie.louvre.fr/visite-virtuelle/saison5/",
+                                        "title": "Launch virtual tour",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }, {
+                                    "title": "Power plays",
+                                    "description": {
+                                        "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eThis third Petite Galerie exhibition focused on the connection between art and political power, from antiquity to the present day.\u003c/p\u003e\n",
+                                        "links": {},
+                                        "titles": {}
+                                    },
+                                    "image": {
+                                        "preview": "beac88",
+                                        "fallback": "/sites/default/files/2021-03/MO171535.jpg",
+                                        "path": "/public/2021-03/MO171535.jpg",
+                                        "alt": "",
+                                        "width": 4000,
+                                        "height": 2667
+                                    },
+                                    "link": {
+                                        "url": "https://petitegalerie.louvre.fr/visite-virtuelle/saison3/",
+                                        "title": "Launch virtual tour",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }, {
+                                    "title": "The Body in Movement",
+                                    "description": {
+                                        "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eIn its second season, the Petite Galerie explored one of the performing arts: dance. How did artists use different materials and techniques to represent movement?\u003c/p\u003e\n",
+                                        "links": {},
+                                        "titles": {}
+                                    },
+                                    "image": {
+                                        "preview": "988660",
+                                        "fallback": "/sites/default/files/2021-03/MO161319.jpg",
+                                        "path": "/public/2021-03/MO161319.jpg",
+                                        "alt": "",
+                                        "width": 4000,
+                                        "height": 2667
+                                    },
+                                    "link": {
+                                        "url": "https://petitegalerie.louvre.fr/visite-virtuelle/saison2/",
+                                        "title": "Launch virtual tour",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }, {
+                                    "title": "Founding Myths: From Hercules to Darth Vader",
+                                    "description": {
+                                        "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eThe very first Petite Galerie exhibition looked into how illustrators, sculptors, painters, puppeteers, filmmakers, and musicians around the world have drawn inspiration from myths, given them form, and brought them to life.\u003c/p\u003e\n",
+                                        "links": {},
+                                        "titles": {}
+                                    },
+                                    "image": {
+                                        "preview": "3c2e47",
+                                        "fallback": "/sites/default/files/2021-03/MO150514.jpg",
+                                        "path": "/public/2021-03/MO150514.jpg",
+                                        "alt": "",
+                                        "width": 4000,
+                                        "height": 2667
+                                    },
+                                    "link": {
+                                        "url": "https://petitegalerie.louvre.fr/visite-virtuelle/saison1/#/petite_galerie_2/",
+                                        "title": "Launch virtual tour",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }]
+                            }],
+                            "centered": false,
+                            "layout": "default"
+                        }]
+                    }, {
+                        "type": "DefaultLayoutContainer",
+                        "id": "louvre-at-home",
+                        "title": "Louvre at home",
+                        "anchorTitle": "Louvre at home",
+                        "color": "turquoise",
+                        "backgroundColor": "white",
+                        "components": [{
+                            "type": "SplitScreenLayout",
+                            "title": "",
+                            "description": {
+                                "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eWhat activities does the Louvre offer that can be enjoyed from home?\u003c/p\u003e\n",
+                                "links": {},
+                                "titles": {}
+                            },
+                            "link": {
+                                "url": "",
+                                "title": "",
+                                "external": false,
+                                "a11y": ""
+                            },
+                            "components": [{
+                                "type": "LandingImage",
+                                "image": {
+                                    "preview": "1e1913",
+                                    "fallback": "/sites/default/files/2021-03/en-tete-a-tete-avec-la-joconde-appli-vr.jpg",
+                                    "path": "/public/2021-03/en-tete-a-tete-avec-la-joconde-appli-vr.jpg",
+                                    "alt": "",
+                                    "width": 1920,
+                                    "height": 1002
+                                },
+                                "caption": {
+                                    "location": "",
+                                    "legend": "",
+                                    "copyright": "© Musée du Louvre / Emissive",
+                                    "a11y": {
+                                        "copyright": "Photo credit"
+                                    }
+                                },
+                                "size": "small",
+                                "disableCrop": false
+                            }, {
+                                "type": "FreeLink",
+                                "link": {
+                                    "url": "/en-ce-moment/evenements-activites/les-lives-en-direct-du-musee-du-louvre",
+                                    "title": "Events at the auditorium (in French)",
+                                    "external": false,
+                                    "a11y": ""
+                                }
+                            }, {
+                                "type": "FreeLink",
+                                "link": {
+                                    "url": "https://soundcloud.com/museedulouvre",
+                                    "title": "Podcasts (in French)",
+                                    "external": true,
+                                    "a11y": ""
+                                }
+                            }, {
+                                "type": "FreeLink",
+                                "link": {
+                                    "url": "https://louvrekids.louvre.fr/",
+                                    "title": "Louvre Kids",
+                                    "external": true,
+                                    "a11y": ""
+                                }
+                            }, {
+                                "type": "FreeLink",
+                                "link": {
+                                    "url": "/en/what-s-on/life-at-the-museum/the-mona-lisa-in-virtual-reality-in-your-own-home",
+                                    "title": "“Mona Lisa Beyond the Glass” virtual reality experience",
+                                    "external": false,
+                                    "a11y": ""
+                                }
+                            }],
+                            "centered": false,
+                            "layout": "default"
+                        }]
+                    }],
+                    "editorial": "information",
+                    "backgroundColor": "white",
+                    "languages": [{
+                        "lang": "en",
+                        "label": "English",
+                        "url": "/en/online-tours",
+                        "translated": false
+                    }, {
+                        "lang": "fr",
+                        "label": "Français",
+                        "url": "/visites-en-ligne",
+                        "translated": true
+                    }, {
+                        "lang": "es",
+                        "label": "Español",
+                        "url": "/es/visitas-virtuales",
+                        "translated": true
+                    }, {
+                        "lang": "zh-hans",
+                        "label": "中文",
+                        "url": "/zh-hans",
+                        "translated": false
+                    }],
+                    "metas": [{
+                        "property": "og:site_name",
+                        "content": "Le Louvre"
+                    }, {
+                        "name": "description",
+                        "content": ""
+                    }, {
+                        "property": "og:title",
+                        "content": "Online tours - Enjoy the Louvre at home!"
+                    }, {
+                        "property": "og:image",
+                        "content": "https://api-www.louvre.fr/sites/default/files/2021-03/petite-galerie-5-figure-d-artiste-2.jpg"
+                    }],
+                    "hreflang": [{
+                        "href": "/en/online-tours",
+                        "rel": "canonical"
+                    }, {
+                        "hreflang": "fr",
+                        "href": "/visites-en-ligne",
+                        "rel": "alternate"
+                    }, {
+                        "hreflang": "es",
+                        "href": "/es/visitas-virtuales",
+                        "rel": "alternate"
+                    }, {
+                        "hreflang": "x-default",
+                        "href": "/en/online-tours",
+                        "rel": "alternate"
+                    }]
+                },
+                "apiAbsoluteUrl": null,
+                "error": "",
+                "debug": false,
+                "lifetimeAudioPlayer": false,
+                "grid": false
+            },
+            "Ecrin": {
+                "status": "fulfilled",
+                "locale": "en",
+                "apiData": {
+                    "type": "Ecrin",
+                    "languages": [{
+                        "lang": "en",
+                        "label": "English",
+                        "url": "/en",
+                        "translated": false
+                    }, {
+                        "lang": "fr",
+                        "label": "Français",
+                        "url": "/",
+                        "translated": false
+                    }, {
+                        "lang": "es",
+                        "label": "Español",
+                        "url": "/es",
+                        "translated": false
+                    }, {
+                        "lang": "zh-hans",
+                        "label": "中文",
+                        "url": "/zh-hans",
+                        "translated": false
+                    }],
+                    "head": [{
+                        "type": "JumpToContent",
+                        "label": "Aller au contenu"
+                    }, {
+                        "type": "Cookies",
+                        "popin": {
+                            "image": {
+                                "preview": "432b0f",
+                                "fallback": "/sites/default/files/2021-02/henri-horace-roland-delaporte-la-petite-collation-ou-carafe-d-orgeat.jpg",
+                                "path": "/public/2021-02/henri-horace-roland-delaporte-la-petite-collation-ou-carafe-d-orgeat.jpg",
+                                "alt": "",
+                                "width": 1500,
+                                "height": 1074
+                            },
+                            "title": "Dear visitors,",
+                            "description": {
+                                "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eThis site uses cookies, installed by the Mus\u0026eacute;e du Louvre or by third parties, to improve your browsing experience. For more information on the purposes and to personalise your preferences by type of cookie, click on \u0026lsquo;Settings\u0026rsquo;.\u003cbr\u003eYou may modify your preferences at any time, and remove your consent to the use of cookies, by clicking on \u0026lsquo;Cookies\u0026rsquo; at the bottom on each page of the website.\u003cbr\u003e\u003c/p\u003e\n",
+                                "links": {},
+                                "titles": {}
+                            },
+                            "knowmore": {
+                                "url": "/en/cookie-management-and-policy",
+                                "title": "Find out more",
+                                "external": false,
+                                "a11y": ""
+                            },
+                            "settings": {
+                                "title": "Settings",
+                                "a11y": "Settings (cookies)"
+                            },
+                            "refuse": {
+                                "title": "Refuse all except technical cookies",
+                                "a11y": "Refuse all, except technical cookies"
+                            },
+                            "accept": {
+                                "title": "Accept all",
+                                "a11y": "Accept all"
+                            }
+                        },
+                        "settings": {
+                            "closeLabel": "Close",
+                            "title": "Cookie management",
+                            "description": {
+                                "html": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cp\u003eThis website uses cookies installed by the Mus\u0026eacute;e du Louvre or by third parties.\u003cbr\u003eThis page allows you to set your cookie preferences. For your information, technical cookies are essential for the proper functioning of our website and are used by the provider for the technical management of the network. They allow you to use the main features of the website. They are essential for doing so and therefore cannot be blocked.\u003c/p\u003e\n",
+                                "links": {},
+                                "titles": {}
+                            },
+                            "rgpd": {
+                                "url": "/en/cookie-management-and-policy",
+                                "title": "Learn more about the museum’s cookie policy and the cookies set out below",
+                                "external": false,
+                                "a11y": ""
+                            },
+                            "services": [{
+                                "title": "PREFERENCE FOR ALL SERVICES",
+                                "cookies": [{
+                                    "id": "all_services",
+                                    "title": "All services",
+                                    "a11yValue": "I agree",
+                                    "active": false,
+                                    "disabled": false
+                                }]
+                            }, {
+                                "title": "TECHNICAL COOKIES",
+                                "cookies": [{
+                                    "id": "technical",
+                                    "title": "Technical cookies",
+                                    "a11yValue": "I agree",
+                                    "active": true,
+                                    "disabled": true,
+                                    "link": {
+                                        "url": "/en/cookie-management-and-policy",
+                                        "title": "Find out more",
+                                        "external": false,
+                                        "a11y": ""
+                                    }
+                                }],
+                                "description": "Technical cookies are the cookies required for proper functioning of the website and allow you to use its main features.",
+                                "info": "Technical cookies cannot be blocked."
+                            }, {
+                                "title": "THIRD-PARTY COOKIES",
+                                "cookies": [{
+                                    "id": "youtube",
+                                    "title": "YouTube",
+                                    "a11yValue": "I agree",
+                                    "active": false,
+                                    "disabled": false,
+                                    "link": {
+                                        "url": "/en/cookie-management-and-policy",
+                                        "title": "Find out more",
+                                        "external": false,
+                                        "a11y": ""
+                                    }
+                                }, {
+                                    "id": "vimeo",
+                                    "title": "Vimeo",
+                                    "a11yValue": "I agree",
+                                    "active": false,
+                                    "disabled": false,
+                                    "link": {
+                                        "url": "/en/cookie-management-and-policy",
+                                        "title": "Find out more",
+                                        "external": false,
+                                        "a11y": ""
+                                    }
+                                }],
+                                "description": "Video-sharing services enrich the website with multimedia content and increase its visibility. You will not be able to view videos on our website if you disable these cookies."
+                            }],
+                            "saveLabel": "Save my preferences"
+                        }
+                    }, {
+                        "type": "Header",
+                        "switcher": {
+                            "label": "Langues"
+                        },
+                        "menu": {
+                            "a11y": {
+                                "navLabel": "All the Louvre",
+                                "popinLabel": "Menu",
+                                "closeLabel": "Close menu"
+                            },
+                            "openLabel": "Menu",
+                            "closeLabel": "Close",
+                            "backLabel": "Back",
+                            "urlSearch": "/en/search-results",
+                            "searchBar": {
+                                "currentSearch": "",
+                                "placeholder": "Search",
+                                "ally": {
+                                    "submit": "Search on louvre.fr"
+                                }
+                            },
+                            "socials": [{
+                                "key": "facebook",
+                                "link": {
+                                    "url": "https://www.facebook.com/museedulouvre",
+                                    "title": "Facebook",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Facebook"
+                                }
+                            }, {
+                                "key": "instagram",
+                                "link": {
+                                    "url": "https://www.instagram.com/museelouvre/",
+                                    "title": "Instagram",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Instagram"
+                                }
+                            }, {
+                                "key": "twitter",
+                                "link": {
+                                    "url": "http://twitter.com/museelouvre",
+                                    "title": "Twitter",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Twitter"
+                                }
+                            }, {
+                                "key": "youtube",
+                                "link": {
+                                    "url": "https://www.youtube.com/user/louvre",
+                                    "title": "Youtube",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Youtube"
+                                }
+                            }, {
+                                "key": "pinterest",
+                                "link": {
+                                    "url": "https://www.pinterest.fr/museedulouvre/",
+                                    "title": "Pinterest",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Pinterest"
+                                }
+                            }, {
+                                "key": "linkedin",
+                                "link": {
+                                    "url": "https://fr.linkedin.com/company/musee-du-louvre",
+                                    "title": "Linkedin",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Linkedin"
+                                }
+                            }],
+                            "mainEntries": [{
+                                "title": "Visit",
+                                "components": [{
+                                    "type": "billetterie",
+                                    "primary": true,
+                                    "link": {
+                                        "url": "https://www.ticketlouvre.fr/louvre/b2c/index.cfm/change.language/lang/en-GB/",
+                                        "title": "Buy tickets",
+                                        "external": true,
+                                        "a11y": ""
+                                    }
+                                }],
+                                "links": [{
+                                    "title": "Hours \u0026 admission",
+                                    "url": "/en/visit/hours-admission",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-50"
+                                }, {
+                                    "title": "Map, entrances \u0026 directions",
+                                    "url": "/en/visit/map-entrances-directions",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-49"
+                                }, {
+                                    "title": "List of available galleries",
+                                    "url": "/en/visit/list-of-available-galleries",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-48"
+                                }, {
+                                    "title": "Visitor amenities",
+                                    "url": "/en/visit/visitor-amenities",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-47"
+                                }, {
+                                    "title": "Restaurants \u0026 Cafes",
+                                    "url": "/en/visit/restaurants-cafes",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-46"
+                                }, {
+                                    "title": "Visit as a family",
+                                    "url": "/en/visit/visit-as-a-family",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-45"
+                                }, {
+                                    "title": "Visit as a group",
+                                    "url": "/en/visit/visit-as-a-group",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-44"
+                                }, {
+                                    "title": "Accessibility",
+                                    "url": "/en/visit/accessibility",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-43"
+                                }, {
+                                    "title": "FAQ",
+                                    "url": "/en/visit/faq",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-42"
+                                }]
+                            }, {
+                                "title": "Explore",
+                                "components": [],
+                                "links": [{
+                                    "title": "The palace",
+                                    "url": "/en/explore/the-palace",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-48"
+                                }, {
+                                    "title": "The gardens",
+                                    "url": "/en/explore/the-gardens",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-47"
+                                }, {
+                                    "title": "Visitor trails",
+                                    "url": "/en/explore/visitor-trails",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "0"
+                                }]
+                            }, {
+                                "title": "What's on",
+                                "components": [],
+                                "links": [{
+                                    "title": "Exhibitions",
+                                    "url": "/en/what-s-on/exhibitions",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-49"
+                                }, {
+                                    "title": "Events \u0026 activities",
+                                    "url": "/en/what-s-on/events-activities",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-48"
+                                }, {
+                                    "title": "Guided tours",
+                                    "url": "/en/what-s-on/guided-tours",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "-47"
+                                }, {
+                                    "title": "Life at the museum",
+                                    "url": "/en/what-s-on/life-at-the-museum",
+                                    "external": false,
+                                    "a11y": "",
+                                    "weight": "0"
+                                }]
+                            }],
+                            "cards": [{
+                                "link": {
+                                    "url": "/en/support-the-louvre",
+                                    "title": "Support the Louvre",
+                                    "external": false,
+                                    "a11y": ""
+                                },
+                                "image": {
+                                    "preview": "5f737a",
+                                    "fallback": "/sites/default/files/2021-02/arc-du-carrousel.jpg",
+                                    "path": "/public/2021-02/arc-du-carrousel.jpg",
+                                    "alt": "",
+                                    "width": 1500,
+                                    "height": 1001
+                                }
+                            }, {
+                                "link": {
+                                    "url": "https://boutique.louvre.fr/",
+                                    "title": "E-boutique",
+                                    "external": true,
+                                    "a11y": ""
+                                },
+                                "image": {
+                                    "preview": "7b5a4b",
+                                    "fallback": "/sites/default/files/2021-02/palais-du-louvre-cour-napoleon.jpg",
+                                    "path": "/public/2021-02/palais-du-louvre-cour-napoleon.jpg",
+                                    "alt": "",
+                                    "width": 1500,
+                                    "height": 1001
+                                }
+                            }]
+                        },
+                        "home": {
+                            "label": "Louvre",
+                            "a11y": {
+                                "linkLabel": "Back to Home",
+                                "homeLabel": "Homepage"
+                            }
+                        },
+                        "navigation": {
+                            "type": "navigation",
+                            "label": "main",
+                            "a11y": {
+                                "prevLabel": "previous navigation element",
+                                "nextLabel": "next navigation item"
+                            },
+                            "links": [{
+                                "title": "Visit",
+                                "url": "/en/visit",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "title": "Explore",
+                                "url": "/en/explore",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "title": "What's on",
+                                "url": "/en/what-s-on",
+                                "external": false,
+                                "a11y": ""
+                            }]
+                        },
+                        "boutique": {
+                            "type": "boutique",
+                            "link": {
+                                "url": "https://www.boutiquesdemusees.fr/en/shop/museum/musee-du-louvre/?par=2",
+                                "title": "Online Boutique",
+                                "external": true,
+                                "a11y": ""
+                            }
+                        },
+                        "billetterie": {
+                            "type": "billetterie",
+                            "primary": true,
+                            "link": {
+                                "url": "https://www.ticketlouvre.fr/louvre/b2c/index.cfm/change.language/lang/en-GB/",
+                                "title": "Tickets",
+                                "external": true,
+                                "a11y": ""
+                            }
+                        }
+                    }],
+                    "foot": [{
+                        "type": "Footer",
+                        "dropdowns": [{
+                            "title": "About",
+                            "links": [{
+                                "url": "/en/the-louvre-in-france-and-around-the-world",
+                                "title": "The Louvre in France and around the world",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/visit/museum-rules",
+                                "title": "Visitor rules",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/loan-and-long-term-loan-requests",
+                                "title": "Loans and long-term loans ",
+                                "external": false,
+                                "a11y": ""
+                            }]
+                        }, {
+                            "title": "Our websites",
+                            "links": [{
+                                "url": "https://www.ticketlouvre.fr/louvre/b2c/index.cfm/change.language/lang/en-GB/",
+                                "title": "Online ticketing service",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://boutique.louvre.fr/?lang=en",
+                                "title": "Online Boutique",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://collections.louvre.fr/en/",
+                                "title": "Collection",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://corpus.louvre.fr",
+                                "title": "Corpus",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "http://editions.louvre.fr/en/home.html",
+                                "title": "Publications",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://donate.louvre.fr/hc/~my-donation?_cv=1",
+                                "title": "Donate",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://petitegalerie.louvre.fr/bilinguisme-en",
+                                "title": "Petite Galerie",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "https://presse.louvre.fr/fr/?lang=en",
+                                "title": "Press",
+                                "external": true,
+                                "a11y": ""
+                            }]
+                        }, {
+                            "title": "Contact",
+                            "links": [{
+                                "url": "/en/visit/faq",
+                                "title": "FAQ",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/contact-us",
+                                "title": "Contact us",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "http://manager.e-questionnaire.com/questionnaire.asp?a=LBhJbRLDCW\u0026l=en",
+                                "title": "Give us your feedback!",
+                                "external": true,
+                                "a11y": ""
+                            }, {
+                                "url": "/offres-d-emploi",
+                                "title": "Jobs (in French)",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/private-events-tours-and-filming-rights",
+                                "title": "Private event and film shoots",
+                                "external": false,
+                                "a11y": ""
+                            }]
+                        }],
+                        "membership": {
+                            "title": "Membership",
+                            "link": {
+                                "url": "https://www.amisdulouvre.fr/adherer-renouveler",
+                                "title": " Become a Friend of the Louvre (in French)",
+                                "external": true,
+                                "a11y": ""
+                            }
+                        },
+                        "linkList": {
+                            "links": [{
+                                "url": "/en/legal-information-and-terms-of-use",
+                                "title": "Legal Notice",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/data-protection-policy",
+                                "title": "Privacy policy",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/en/cookie-management-and-policy",
+                                "title": "Cookies",
+                                "external": false,
+                                "a11y": ""
+                            }, {
+                                "url": "/credits",
+                                "title": "Credits (in French)",
+                                "external": false,
+                                "a11y": ""
+                            }],
+                            "copyrights": {
+                                "button": {
+                                    "label": "Copyrights"
+                                },
+                                "popin": {
+                                    "title": "Copyrights",
+                                    "closeLabel": "Close",
+                                    "label": "Copyrights",
+                                    "loading": "Image loading",
+                                    "empty": "No pictures found"
+                                }
+                            }
+                        },
+                        "socials": {
+                            "title": "Follow us",
+                            "socials": [{
+                                "key": "facebook",
+                                "link": {
+                                    "url": "https://www.facebook.com/museedulouvre",
+                                    "title": "Facebook",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Facebook"
+                                }
+                            }, {
+                                "key": "instagram",
+                                "link": {
+                                    "url": "https://www.instagram.com/museelouvre/",
+                                    "title": "Instagram",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Instagram"
+                                }
+                            }, {
+                                "key": "twitter",
+                                "link": {
+                                    "url": "http://twitter.com/museelouvre",
+                                    "title": "Twitter",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Twitter"
+                                }
+                            }, {
+                                "key": "youtube",
+                                "link": {
+                                    "url": "https://www.youtube.com/user/louvre",
+                                    "title": "Youtube",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Youtube"
+                                }
+                            }, {
+                                "key": "pinterest",
+                                "link": {
+                                    "url": "https://www.pinterest.fr/museedulouvre/",
+                                    "title": "Pinterest",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Pinterest"
+                                }
+                            }, {
+                                "key": "linkedin",
+                                "link": {
+                                    "url": "https://fr.linkedin.com/company/musee-du-louvre",
+                                    "title": "Linkedin",
+                                    "external": true,
+                                    "a11y": "Le Louvre sur Linkedin"
+                                }
+                            }]
+                        }
+                    }],
+                    "before": [],
+                    "after": [{
+                        "type": "BackToTop",
+                        "a11y": {
+                            "text": "Back to top"
+                        }
+                    }]
+                }
+            },
+            "StickyOffsets": {
+                "offsetTop": 0,
+                "maxOffsetTop": 0,
+                "offsetBottom": false,
+                "maxOffsetBottom": 0
+            },
+            "Copyrights": {
+                "json": {},
+                "loaded": false
+            },
+            "Cookies": {
+                "consent": {},
+                "info": {},
+                "openDrawer": false
+            },
+            "AccesMusee": {
+                "activeFilter": null,
+                "statuses": {}
+            }
+        }
+    },
+    "page": "/",
+    "query": {
+        "relUrl": "/en/online-tours"
+    },
+    "buildId": "4w2dHw8UTLhJf0C4dZBdF",
+    "runtimeConfig": {
+        "environment": "production",
+        "backstage": {
+            "url": "https://api-www.louvre.fr",
+            "images": "/sites/default/files/styles"
+        },
+        "frontstage": {
+            "url": "https://www.louvre.fr"
+        }
+    },
+    "isFallback": false,
+    "dynamicIds": [8548, 29562, 8732, 71249, 79543, 92897, 79183, 25458],
+    "customServer": true,
+    "gip": true,
+    "appGip": true,
+    "scriptLoader": []
+}
